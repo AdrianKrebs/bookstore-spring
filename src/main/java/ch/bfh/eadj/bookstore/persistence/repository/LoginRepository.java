@@ -7,4 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface LoginRepository extends JpaRepository<Login, String> {
 
 	public Login findByUsername(String username);
+
+	public Login findByNr(Long nr);
 }

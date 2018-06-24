@@ -7,11 +7,11 @@ import ch.bfh.eadj.bookstore.persistence.enumeration.OrderStatus;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "T_BOOK_ORDER")
+@Table(name = "BOOK_ORDER")
 public class Order implements Serializable {
 
 	@Id
